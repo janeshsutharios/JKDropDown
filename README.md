@@ -26,7 +26,7 @@ Create CGRect variable which is used to getting Button frame:
  ```
  Assign values to `buttonFrame` with parent view:
  ```
-         buttonFrame = view.convert(buttonSelect.frame, to: view)//view is parent view (self.view)
+ buttonFrame = view.convert(buttonSelect.frame, to: view)//view is parent view (self.view)
 ```
 ### Setting up with [CocoaPods](https://cocoapods.org/pods/JKDropDown)
 ```ruby
@@ -75,3 +75,6 @@ class ViewController: UIViewController,JKDropDownDelegate {
     }
 }
 ```
+## License
+
+JKDropDown is released under the MIT license. [See LICENSE](https://github.com/janeshsutharios/JKDropDown/blob/master/LICENSE) for details.
