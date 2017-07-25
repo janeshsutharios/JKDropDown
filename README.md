@@ -31,7 +31,7 @@ Create CGRect variable which is used to getting Button frame:
 ### Setting up with [CocoaPods](https://cocoapods.org/pods/JKDropDown)
 ```ruby
 source 'https://github.com/janeshsutharios/JKDropDown.git'
-pod 'JKDropDown', '~> 0.1.0'
+pod 'JKDropDown', :git => 'https://github.com/janeshsutharios/JKDropDown-ios-swift-dropdown-menu.git'
 ```
 ## Example usage
 
