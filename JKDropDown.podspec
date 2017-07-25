@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JKDropDown'
-  s.version          = '0.1.0'
+  s.version          = '1.0.1'
   s.summary          = 'Ios Swift-3 lightweight DropDown using tableview'
  
   s.description      = <<-DESC
@@ -13,6 +13,6 @@ Ios Swift-3 lightweight DropDown using tableview!
   s.source           = { :git => 'https://github.com/janeshsutharios/JKDropDown.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
-  s.source_files = 'JKDropDown/*'
+  s.source_files = 'JKDropDown/JKDropDown.swift'
  
 end
