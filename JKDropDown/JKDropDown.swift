@@ -75,6 +75,7 @@ public class JKDropDown: UIView,UITableViewDataSource,UITableViewDelegate{
             }
             self.tblView?.frame = CGRect(x:0, y:0, width:self.frame.size.width, height:0)
         }, completion:{ Void in
+            self.removeFromSuperview()
         })
     }
     open func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
