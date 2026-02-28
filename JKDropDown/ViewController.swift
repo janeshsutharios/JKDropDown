@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         // Here we are getting button frame with respective to the self.view
         buttonFrame = view.convert(buttonSelect.frame, to: view)
     }
+    
     // Here it shows usage of dropdown plugin.
     @objc func tapsOnButton() {
         // Based on dropDownObject we are show hide dropdown/TableView
@@ -40,10 +41,9 @@ class ViewController: UIViewController {
         }
     }
 }
-
-
-//MARK: - Here we are reciving thedropdown selected values by delegate.
-
+ 
+// MARK: - Here we are reciving thedropdown selected values by delegate.
+ 
 extension ViewController: JKDropDownDelegate {
     func recievedSelectedValue(name: String, imageName: String) {
         dropDownObject.hideDropDown(senderObject: buttonSelect, buttonFrame: buttonFrame!)
