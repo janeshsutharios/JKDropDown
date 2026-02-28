@@ -41,9 +41,9 @@ class ViewController: UIViewController {
         }
     }
 }
-
+ 
 // MARK: - Here we are reciving thedropdown selected values by delegate.
-
+ 
 extension ViewController: JKDropDownDelegate {
     func recievedSelectedValue(name: String, imageName: String) {
         dropDownObject.hideDropDown(senderObject: buttonSelect, buttonFrame: buttonFrame!)
